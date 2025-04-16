@@ -14,41 +14,8 @@
 ---
 
 ## Установка и запуск
-
-### Требования
-- Python 3.x (рекомендуется версия 3.8 и выше).
-
-### Клонирование репозитория
-```
+Необходим Python 3.x
+```text
 git clone https://github.com/Lyups/simple-quiz-cli.git
 cd simple-quiz-cli
 python main.py
-
-## Формат вопросов
-
-Пример формата вопросов:
-
-```text
-# Question 1.
-+ 1
-- 2
-- 3
-- 4
-
-# Question 2.
-+ 1
-- 2
-- 3
-- 4
-
-# Question 3.
-+ 1
-- 2
-- 3
-- 4
-
-# Question 4.
-+ 1
-- 2
-- 3
-- 4

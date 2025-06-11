@@ -111,7 +111,8 @@ def run_quiz(questions, shuffle_questions_flag=True, shuffle_answers_flag=True):
                 questions_attempted += 1
 
                 if not user_input:
-                    selected = []
+                    print(f"{Fore.RED}Пожалуйста, введите номера ответов или 'quit'/\'выйти' для выхода.{Style.RESET_ALL}")
+                    continue # Продолжаем цикл, чтобы запросить ввод снова
                 else:
                     selected = list(map(int, user_input.split()))
                 
